@@ -1,0 +1,2346 @@
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Berlin Sans FB', Helvetica, sans-serif;
+}
+
+body{
+background:#f0fff5;
+color:#333;
+line-height:1.7;
+font-size:22px; /* 🔥 MÁS GRANDE */
+}
+
+.footer{
+    background: linear-gradient(135deg, #1b5e20, #2e7d32);
+    color: white;
+    padding: 40px 20px;
+}
+
+/* GRID EN COLUMNAS */
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-col{
+    padding: 0 20px;
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.footer-col:last-child{
+    border-right: none;
+}
+
+/* TITULOS */
+.footer-col h4{
+    margin-bottom: 15px;
+    font-size: 18px; /* 🔥 MÁS GRANDE */
+    color: #c8e6c9;
+}
+
+/* TEXTO */
+.footer-col p,
+.footer-col li{
+    font-size: 30px; /* 🔥 MÁS GRANDE */
+    margin-bottom: 8px;
+}
+
+/* LISTAS */
+.footer-col ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col i{
+    margin-right: 5px;
+}
+
+/* BARRA FINAL */
+.footer-bottom{
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    text-align: center;
+}
+
+.logo-mini{
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+.social-icons a{
+    color: white;
+    margin: 0 8px;
+    font-size: 22px; /* 🔥 MÁS GRANDE */
+    transition: 0.3s;
+}
+
+.social-icons a:hover{
+    color: #a5d6a7;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-col{
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding: 15px 0;
+    }
+
+    .footer-col:last-child{
+        border-bottom: none;
+    }
+}
+
+/* PORTADA */
+
+.hero{
+position:relative;
+text-align:center;
+}
+
+.hero img{
+width:100%;
+height:700px;
+object-fit:cover;
+filter:brightness(60%);
+}
+
+.hero h1{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+color:white;
+font-size:80px; /* 🔥 MÁS GRANDE */
+text-shadow:2px 2px 12px black;
+padding:0 30px;
+text-align:center;
+}
+
+
+section{
+    background:#f0fff5 !important;
+}
+
+/* MENU */
+
+nav{
+background:#006847;
+padding:20px;
+text-align:center;
+margin-top:30px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+font-size:22px; /* 🔥 MÁS GRANDE */
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* SECCIONES */
+
+section{
+padding:60px 12%;
+}
+
+h2{
+color:#006847;
+margin-bottom:15px;
+font-size:40px; /* 🔥 MÁS GRANDE */
+}
+
+p{
+font-size:24px; /* 🔥 MÁS GRANDE */
+margin-bottom:15px;
+text-align:justify;
+}
+
+ul{
+margin-top:10px;
+padding-left:20px;
+font-size:24px; /* 🔥 MÁS GRANDE */
+}
+
+li{
+margin-bottom:8px;
+}
+
+section{
+    max-width: 2100px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+/* FOOTER */
+
+footer{
+background:#006847;
+text-align:center;
+padding:20px;
+font-size:20px; /* 🔥 MÁS GRANDE */
+color:white;
+}
+
+
+/* 🔥 FORZAR TODO A 24px */
+body, 
+h1, h2, h3, h4, h5, h6,
+p, li, a, span,
+table, th, td,
+button {
+    font-size: 24px !important;
+}
+
+
+/* TEXTO NORMAL */
+html *{
+    font-size:28px !important;
+}
+
+/* 🔥 TITULO PRINCIPAL (PORTADA) */
+.hero h1{
+    font-size:90px !important;
+}
+
+/* 🔥 TITULOS PRINCIPALES */
+h2{
+    font-size:45px !important;
+}
+
+/* 🔥 SUBTITULOS */
+h3{
+    font-size:40px !important;
+}
+</style>
+
+<!-- 1. PORTADA -->
+<div class="hero">
+<img src="fondo.jpeg" alt="drogas">
+<br> </br>
+<h1>Las Drogas y su Impacto en la Juventud</h1>
+</div>
+ 
+<!-- 2. MENU -->
+<nav>
+<a href="#introduccion">Introducción</a>
+<a href="#definicion">Definición</a>
+<a href="#impacto">Impacto</a>
+<a href="#historia">Antecedentes</a>
+<a href="#causas">Causas</a>
+<a href="#consecuencias">Consecuencias</a>
+<a href="#tipos">Tipos</a>
+<a href="#factores_riesgo">Factores de riesgo</a>
+<a href="#prevencion">Prevención</a>
+<a href="#factores_prevencion">Factores de prevención</a>
+<a href="#ayuda">Ayuda</a>
+<a href="#conclusion">Conclusión</a>
+<a href="#video">Video</a>
+<a href="#fuentes">Fuentes</a>
+</nav>
+
+<!-- 3. INTRODUCCION -->
+<section id="introduccion">
+<h2><i class="fa-solid fa-pen"></i> Introducción</h2>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+
+<!-- TEXTO -->
+<td width="50%" valign="top" style="padding-right:30px;">
+<p>
+El consumo de drogas en la población estudiantil representa un problema de gran relevancia social y de salud pública, 
+ya que afecta de manera directa el desarrollo físico, emocional y académico de los jóvenes. Durante la etapa escolar, 
+los estudiantes se encuentran en un periodo de formación en el que son especialmente vulnerables a diversas influencias externas, 
+como la presión social, los problemas familiares y el entorno en el que se desarrollan.
+</p>
+
+<p>
+Esta problemática no solo impacta en el bienestar individual de los jóvenes, sino también en su desempeño escolar y en sus relaciones sociales. 
+Por ello, resulta fundamental generar conciencia sobre los riesgos asociados al consumo de drogas, así como fomentar la prevención 
+y la toma de decisiones responsables que contribuyan a un desarrollo integral y saludable.
+</p>
+</td>
+
+<!-- VIDEO -->
+<td width="50%" valign="top" style="padding-left:30px;">
+<iframe 
+width="100%" 
+height="420" 
+src="musica.mp4" 
+title="Video de YouTube"
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+</td>
+</tr>
+</table>
+</section>
+
+<!-- 4. DEFINICION -->
+<section id="definicion">
+
+<div style="display:flex; gap:30px; align-items:stretch; flex-wrap:wrap;">
+
+<!-- IMAGEN -->
+<div style="flex:1; min-width:300px;">
+<img src="imagen2.jpeg"
+style="width:100%; height:100%; object-fit:cover; border-radius:20px;">
+</div>
+
+<!-- TEXTO -->
+<div style="flex:2; min-width:320px;">
+
+<h2 style="font-size:45px;">¿Qué son las drogas?</h2>
+
+<p style="font-size:24px;">
+Las drogas son sustancias naturales, semisintéticas o sintéticas que, al ser introducidas en el 
+organismo por diferentes vías (oral, inhalada, inyectada o absorbida a través de la piel), alteran el 
+funcionamiento normal del sistema nervioso central y pueden modificar la percepción, el estado 
+de ánimo, la conciencia, el comportamiento y las funciones corporales.
+</p>
+
+<hr>
+
+<p style="font-size:24px;">
+Desde un punto de vista científico y médico, una droga es cualquier sustancia que produce un 
+cambio físico o químico en el organismo, especialmente en el cerebro. Esto incluye tanto sustancias 
+legales (como medicamentos recetados o el alcohol) como ilegales (como la cocaína o la marihuana 
+en ciertos contextos), siempre que tengan la capacidad de influir en la actividad mental o corporal.
+</p>
+
+<hr>
+
+<p style="font-size:24px;">
+Las drogas actúan principalmente sobre el cerebro al interferir con la comunicación entre las 
+neuronas, alterando la liberación, recepción o recaptación de neurotransmisores (como la dopamina 
+o la serotonina)
+</p>
+
+<hr>
+
+<p style="font-size:24px;">
+Esto puede generar sensaciones de placer, relajación, euforia o estimulación, pero también puede 
+provocar efectos negativos como ansiedad, confusión, dependencia o daño a largo plazo en distintos 
+órganos.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 5. IMPACTO EN LA JUVENTUD  -->
+<section id="impacto" style="padding:20px; display:flex; justify-content:center;">
+<div style="width:100%; max-width:1700px;"> 
+
+<style>
+.impacto-item {
+  display:flex;
+  align-items:center;
+  padding:10px 15px;
+  border-radius:10px;
+  margin-bottom:10px;
+  transition: all 0.3s ease;
+}
+
+.impacto-item:hover {
+  transform: scale(1.02);
+  filter: brightness(1.1);
+}
+</style>
+
+<h2 style="text-align:center; margin-bottom:15px;">
+<i class="fa-solid fa-school" style="color:#4a90e2;"></i> Impacto en adolescentes
+</h2>
+<p style="text-align:center; margin-bottom:20px; color:#555;">
+El consumo de drogas en adolescentes puede afectar su desarrollo físico, emocional y social, impactando su vida diaria y su futuro.
+</p>
+
+    <!-- BLOQUES -->
+    <div class="impacto-item" style="background:#eef4ff;">
+    <div style="flex:1; min-width:140px; font-weight:bold; display:flex; align-items:center; gap:6px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/2965/2965879.png" width="20">
+    Cerebro
+    </div>
+    <div style="margin:0 10px; color:#4a90e2;">➜</div>
+    <div style="flex:2;">Problemas para controlar impulsos y tomar decisiones.</div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3209/3209265.png" width="28" style="margin-left:10px;">
+    </div>
+
+    <div class="impacto-item" style="background:#fff4ec;">
+    <div style="flex:1; min-width:140px; font-weight:bold; display:flex; align-items:center; gap:6px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/565/565547.png" width="20">
+    Adicción
+    </div>
+    <div style="margin:0 10px; color:#e67e22;">➜</div>
+    <div style="flex:2;">Dependencia rápida y necesidad constante de consumir.</div>
+    <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" width="28" style="margin-left:10px;">
+    </div>
+
+    <div class="impacto-item" style="background:#eafaf1;">
+    <div style="flex:1; min-width:140px; font-weight:bold; display:flex; align-items:center; gap:6px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" width="20">
+    Escuela
+    </div>
+    <div style="margin:0 10px; color:#27ae60;">➜</div>
+    <div style="flex:2;">Bajo rendimiento o abandono escolar.</div>
+    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" width="28" style="margin-left:10px;">
+    </div>
+
+    <div class="impacto-item" style="background:#f4ecff;">
+    <div style="flex:1; min-width:140px; font-weight:bold; display:flex; align-items:center; gap:6px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" width="20">
+    Amistades
+    </div>
+    <div style="margin:0 10px; color:#8e44ad;">➜</div>
+    <div style="flex:2;">Influencia de personas que fomentan el consumo.</div>
+    <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="28" style="margin-left:10px;">
+    </div>
+
+    <div class="impacto-item" style="background:#fdecea;">
+    <div style="flex:1; min-width:140px; font-weight:bold; display:flex; align-items:center; gap:6px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/565/565491.png" width="20">
+    Riesgos
+    </div>
+    <div style="margin:0 10px; color:#c0392b;">➜</div>
+    <div style="flex:2;">Accidentes o conductas impulsivas.</div>
+    <img src="https://cdn-icons-png.flaticon.com/512/296/296216.png" width="28" style="margin-left:10px;">
+    </div>
+
+    <div class="impacto-item" style="background:#fff8e6;">
+    <div style="flex:1; min-width:140px; font-weight:bold; display:flex; align-items:center; gap:6px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" width="20">
+    Futuro
+    </div>
+    <div style="margin:0 10px; color:#f39c12;">➜</div>
+    <div style="flex:2;">Dificultad para cumplir metas personales.</div>
+    <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" width="28" style="margin-left:10px;">
+    </div>
+    </div>
+    </section>
+
+<!-- 6. ANTECEDENTES HISTORICOS -->
+<section id="historia" style="display:flex; align-items:stretch; gap:30px; flex-wrap:wrap;">
+
+    <!-- TEXTO -->
+    <div style="flex:1; min-width:300px; display:flex; flex-direction:column; justify-content:center;">
+        <h2><i class="fa-solid fa-clock"></i> Antecedentes históricos</h2>
+
+        <p>El uso de drogas existe desde la antigüedad, cuando distintas culturas utilizaban plantas y sustancias naturales con fines medicinales, religiosos y rituales. En civilizaciones como la egipcia, la china y la indígena, algunas sustancias se usaban de forma controlada dentro de prácticas tradicionales.</p>
+
+        <p>Con el avance del tiempo, especialmente en los siglos XIX y XX, se desarrollaron drogas sintéticas en laboratorios, lo que aumentó su producción, disponibilidad y consumo a nivel mundial.</p>
+
+        <p>En la actualidad, el consumo de drogas es considerado un problema de salud pública a nivel mundial, debido a sus efectos negativos en la salud física y mental, así como en la vida social.</p>
+
+        <p>Por esta razón, se promueven campañas de prevención para informar sobre los riesgos y fomentar decisiones responsables.</p>
+    </div>
+
+    <!-- IMAGEN-->
+    <div style="flex:1; min-width:300px; display:flex; justify-content:center; align-items:center;">
+        <img src="imagen19.jpeg" 
+             alt="Imagen informativa"
+             style="width:85%; height:auto; border-radius:10px;">
+    </div>
+
+    <!-- VIDEOS GRANDES -->
+    <div style="width:100%; display:flex; gap:30px; margin-top:40px; flex-wrap:wrap;">
+
+        <div style="flex:1; min-width:400px;">
+            <video controls style="width:100%; height:500px; object-fit:cover; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.25);">
+                <source src="entrevista2.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+        </div>
+
+        <div style="flex:1; min-width:400px;">
+            <video controls style="width:100%; height:500px; object-fit:cover; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.25);">
+                <source src="entrevista3.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- 7. CAUSAS -->
+<section id="causas" style="padding:60px 10%; background:linear-gradient(135deg,#e8f5e9,#ffffff);">
+<h2 style="text-align:center; font-size:50px; margin-bottom:30px; color:#1b5e20;">
+<i class="fa-solid fa-triangle-exclamation"></i> Causas
+</h2>
+<p style="text-align:center; font-size:24px; margin-bottom:50px;">
+El consumo de drogas en los jóvenes puede originarse por una combinación de factores personales, emocionales, familiares y sociales. 
+Durante la adolescencia, es común que los estudiantes enfrenten cambios importantes en su vida, lo que puede generar curiosidad, inseguridad o necesidad de aceptación.
+</p>
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:30px;">
+
+    <!-- TARJETA -->
+    <div style="background:white; border-radius:20px; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='scale(1.05)'" 
+    onmouseout="this.style.transform='scale(1)'">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" style="width:100%; height:180px; object-fit:cover;">
+    <div style="padding:25px;">
+    <h3 style="font-size:26px; color:#2e7d32;">🧠 Factores personales</h3>
+    <ul style="font-size:20px; text-align:left; margin-top:10px;">
+    <li>Curiosidad o deseo de experimentar.</li>
+    <li>Baja autoestima.</li>
+    <li>Búsqueda de identidad o aceptación.</li>
+    <li>Falta de habilidades para tomar decisiones.</li>
+    </ul>
+    </div>
+    </div>
+
+    <!-- TARJETA -->
+    <div style="background:white; border-radius:20px; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='scale(1.05)'" 
+    onmouseout="this.style.transform='scale(1)'">
+    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" style="width:100%; height:180px; object-fit:cover;">
+    <div style="padding:25px;">
+    <h3 style="font-size:26px; color:#2e7d32;">😟 Factores emocionales</h3>
+    <ul style="font-size:20px; text-align:left; margin-top:10px;">
+    <li>Estrés, ansiedad o depresión.</li>
+    <li>Problemas personales o traumas.</li>
+    <li>Dificultad para controlar emociones.</li>
+    <li>Necesidad de escapar de la realidad.</li>
+    </ul>
+    </div>
+    </div>
+
+    <!-- TARJETA -->
+    <div style="background:white; border-radius:20px; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='scale(1.05)'" 
+    onmouseout="this.style.transform='scale(1)'">
+    <img src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png" style="width:100%; height:180px; object-fit:cover;">
+    <div style="padding:25px;">
+    <h3 style="font-size:26px; color:#2e7d32;">👨‍👩‍👧‍👦 Factores familiares y sociales</h3>
+    <ul style="font-size:20px; text-align:left; margin-top:10px;">
+    <li>Problemas familiares o falta de comunicación.</li>
+    <li>Presión de amigos o grupo social.</li>
+    <li>Influencia negativa del entorno.</li>
+    <li>Falta de supervisión de adultos.</li>
+    </ul>
+    </div>
+    </div>
+
+    <!-- TARJETA -->
+    <div style="background:white; border-radius:20px; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='scale(1.05)'" 
+    onmouseout="this.style.transform='scale(1)'">
+    <img src="https://cdn-icons-png.flaticon.com/512/3209/3209265.png" style="width:100%; height:180px; object-fit:cover;">
+    <div style="padding:25px;">
+    <h3 style="font-size:26px; color:#2e7d32;">🌍 Factores del entorno</h3>
+    <ul style="font-size:20px; text-align:left; margin-top:10px;">
+    <li>Fácil acceso a las drogas.</li>
+    <li>Influencia de medios de comunicación.</li>
+    <li>Normalización del consumo en la sociedad.</li>
+    <li>Falta de información sobre riesgos.</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!-- 8. CONSECUENCIAS -->
+<section id="consecuencias" style="padding:60px 10%; background:linear-gradient(135deg,#ffffff,#f1f8e9);">
+<h2 style="text-align:center; font-size:50px; margin-bottom:30px; color:#c62828;">
+<i class="fa-solid fa-heart-pulse"></i> Consecuencias
+</h2>
+<p style="text-align:center; font-size:24px; margin-bottom:50px;">El consumo de drogas puede generar consecuencias graves que afectan diferentes aspectos de la vida de una persona. En primer lugar, impacta directamente la salud física, provocando daños en órganos vitales como el cerebro, 
+el corazón y los pulmones, además de debilitar el sistema inmunológico. Asimismo, puede ocasionar problemas de salud mental como ansiedad, depresión, cambios de humor y dificultades para concentrarse o tomar decisiones.
+</p>
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:30px;">
+
+    <!-- BLOQUE -->
+    <div style="background:#ffebee; padding:25px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='translateY(-10px) scale(1.03)'" 
+    onmouseout="this.style.transform='translateY(0) scale(1)'">
+        <h3 style="font-size:28px;">🧠 Salud física</h3>
+        <ul style="font-size:20px; margin-top:10px;">
+            <li>Daño al cerebro: afecta la memoria, la concentración y la toma de decisiones.</li>
+            <li>Problemas cardíacos.</li>
+            <li>Enfermedades respiratorias.</li>
+            <li>Daño en órganos.</li>
+            <li>Debilitamiento del sistema inmunológico.</li>
+            <li>Riesgo de sobredosis.</li>
+            </ul>
+    </div>
+
+    <!-- BLOQUE -->
+    <div style="background:#f3e5f5; padding:25px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='translateY(-10px) scale(1.03)'" 
+    onmouseout="this.style.transform='translateY(0) scale(1)'">
+
+        <h3 style="font-size:28px;">🧠 Salud mental</h3>
+        <ul style="font-size:20px; margin-top:10px;">
+            <li>Ansiedad y depresión</li>
+            <li>Cambios bruscos de humor</li>
+            <li>Problemas de memoria</li>
+            <li>Trastornos mentales</li>
+            <li>Dependencia</li>
+            <li>Baja autoestima</li>
+            <li>Alucinaciones</li>
+            <li>Aislamiento emocional</li>
+            <li>Pensamientos negativos frecuentes</li>
+            </ul>
+    </div>
+
+    <!-- BLOQUE -->
+    <div style="background:#e3f2fd; padding:25px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='translateY(-10px) scale(1.03)'" 
+    onmouseout="this.style.transform='translateY(0) scale(1)'">
+
+        <h3 style="font-size:28px;">⚠️ Sociales</h3>
+        <ul style="font-size:20px; margin-top:10px;">
+            <li>Problemas familiares</li>
+            <li>Aislamiento social</li>
+            <li>Bajo rendimiento escolar</li>
+            <li>Problemas legales</li>
+            <li>Dificultad laboral</li>
+            <li>Conflictos con amigos o ruptura de amistades</li>
+            <li>Rechazo social o estigmatización</li>
+            <li>Violencia o conflictos sociales</li>
+            </ul>
+    </div>
+
+    <!-- BLOQUE -->
+    <div style="background:#fff3e0; padding:25px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='translateY(-10px) scale(1.03)'" 
+    onmouseout="this.style.transform='translateY(0) scale(1)'">
+
+        <h3 style="font-size:28px;">👨‍👩‍👧‍👦 Jóvenes</h3>
+        <ul style="font-size:20px; margin-top:10px;">
+            <li>Afecta el desarrollo del cerebro</li>
+            <li>Mayor riesgo de adicción</li>
+            <li>Dificultades escolares</li>
+            <li>Influencia negativa social</li>
+            <li>Conductas de riesgo</li>
+            <li>Retraso en el desarrollo emocional </li>
+            <li>Riesgo de consumo temprano de otras sustancias </li>
+            </ul>
+    </div>
+
+    <!-- BLOQUE -->
+    <div style="background:#e8f5e9; padding:25px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.1); transition:0.4s;"
+    onmouseover="this.style.transform='translateY(-10px) scale(1.03)'" 
+    onmouseout="this.style.transform='translateY(0) scale(1)'">
+
+        <h3 style="font-size:28px;">🕰️ Largo plazo</h3>
+        <ul style="font-size:20px; margin-top:10px;">
+            <li>Daños irreversibles</li>
+            <li>Enfermedades crónicas</li>
+            <li>Dependencia severa</li>
+            <li>Deterioro de vida</li>
+            <li>Problemas económicos</li>
+            <li>Daño permanente al cerebro</li>
+            <li>Deterioro físico progresivo</li>
+            <li>Aislamiento total de la sociedad</li>
+            </ul>
+    </div>
+</div>
+</section>
+
+<!-- 9. TIPOS -->
+<section id="tipos">
+<section style="padding: 40px; background-color: #f1f8e9;">
+    <h2 style="text-align: center; color: #1b5e20;">Tipos de drogas, función y efectos en la salud</h2>
+
+ <table border="1" style="width: 100%; border-collapse: collapse; text-align: center; margin-top: 20px; font-size: 22px;">
+    <thead style="background-color: #2e7d32; color: white; font-size: 26px;">
+        <tr>
+                <th style="padding: 20px;">Tipo de droga</th>
+                <th style="padding: 20px;">¿Para qué se usan?</th>
+                <th style="padding: 20px;">¿Cómo afectan al cuerpo y la salud?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 20px;">Estimulantes</td>
+                <td style="padding: 20px;">Aumentan la energía y el estado de alerta</td>
+                <td style="padding: 20px;">Pueden causar ansiedad, insomnio, aumento del ritmo cardíaco y adicción</td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;">Depresoras</td>
+                <td style="padding: 20px;">Relajan el sistema nervioso</td>
+                <td style="padding: 20px;">Provocan somnolencia, dificultad para respirar y dependencia</td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;">Alucinógenas</td>
+                <td style="padding: 20px;">Alteran la percepción y los sentidos</td>
+                <td style="padding: 20px;">Generan confusión, miedo, alucinaciones y problemas mentales</td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;">Analgésicos (opioides)</td>
+                <td style="padding: 20px;">Alivian el dolor</td>
+                <td style="padding: 20px;">Pueden causar adicción, somnolencia y problemas respiratorios</td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;">Inhalantes</td>
+                <td style="padding: 20px;">Producen efectos rápidos de euforia</td>
+                <td style="padding: 20px;">Dañan el cerebro, pulmones y otros órganos</td>
+            </tr>
+            <tr>
+                <td style="padding: 20px;">Cannabis</td>
+                <td style="padding: 20px;">Relajación o uso recreativo/medicinal</td>
+                <td style="padding: 20px;">Afecta la memoria, coordinación y puede generar dependencia</td>
+            </tr>
+        </tbody>  
+    </table
+    
+    >
+</section>
+
+<br> </br>
+
+
+<div style="display:flex; justify-content:center; gap:50px; flex-wrap:wrap; margin-top:50px;">
+
+    <!-- VIDEO 1 -->
+    <div style="flex:1; min-width:500px; max-width:1000px; border-radius:30px; overflow:hidden; box-shadow:0 20px 50px rgba(0,0,0,0.35);">
+        <iframe width="100%" height="520"
+            src="video2.mp4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- VIDEO 2 -->
+    <div style="flex:1; min-width:500px; max-width:1000px; border-radius:30px; overflow:hidden; box-shadow:0 20px 50px rgba(0,0,0,0.35);">
+        <iframe width="100%" height="520"
+          src="video3.mp4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</div>
+</section>
+
+<!-- 10. FACTORES DE RIESGO -->
+<style>
+/* ANIMACIÓN DE ENTRADA */
+@keyframes fadeUp {
+    from {opacity:0; transform:translateY(30px);}
+    to {opacity:1; transform:translateY(0);}
+}
+
+/* TARJETAS */
+.card {
+    background:#fff;
+    padding:18px;
+    border-radius:14px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+    transition:0.3s;
+    animation:fadeUp 0.8s ease forwards;
+}
+
+.card:hover {
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* COLORES LATERALES */
+.familia {border-left:6px solid #fb8c00;}
+.personal {border-left:6px solid #1e88e5;}
+.social {border-left:6px solid #8e24aa;}
+.emocional {border-left:6px solid #43a047;}
+.curiosidad {border-left:6px solid #fdd835;}
+.entorno {border-left:6px solid #6d4c41;}
+
+section {
+    padding:80px 5%;
+    background:linear-gradient(135deg,#f4f6f7,#ffffff);
+    font-family:Arial, sans-serif;
+}
+
+/* CENTRO */
+.center-box {
+    background:#1b5e20;
+    color:white;
+    padding:25px;
+    border-radius:16px;
+    text-align:center;
+    font-size:20px;
+    margin-top:40px;
+    animation:fadeUp 1s ease forwards;
+}
+</style>
+
+<section id="factores_riesgo">
+
+<h2 style="text-align:center; font-size:44px; color:#1b5e20; margin-bottom:50px; animation:fadeUp 0.6s;">
+Factores de riesgo
+</h2>
+
+<!-- SUPERIOR -->
+<div style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">62
+
+
+
+    <div class="card familia" style="flex:1; min-width:250px;">
+        <h3>👨‍👩‍👧 Familia</h3>
+        <p>🗣️ Falta de comunicación</p>
+        <p>🏠 Ejemplo: no hablar en casa</p>
+        <p>😟 Conflictos familiares</p>
+    </div>
+
+    <div class="card personal" style="flex:1; min-width:250px;">
+        <h3>🧠 Personal</h3>
+        <p>😔 Baja autoestima</p>
+        <p>😶 Inseguridad social</p>
+        <p>💭 Falta de control emocional</p>
+    </div>
+
+    <div class="card social" style="flex:1; min-width:250px;">
+        <h3>👥 Social</h3>
+        <p>🤝 Presión de grupo</p>
+        <p>🚫 Malas amistades</p>
+        <p>📱 Influencia social</p>
+    </div>
+
+</div>
+
+<br><br>
+
+<!-- INFERIOR -->
+<div style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
+
+    <div class="card emocional" style="flex:1; min-width:250px;">
+        <h3>😟 Emocional</h3>
+        <p>⚡ Estrés y ansiedad</p>
+        <p>📚 Problemas escolares</p>
+        <p>😢 Tristeza o depresión</p>
+    </div>
+
+    <div class="card curiosidad" style="flex:1; min-width:250px;">
+        <h3>🔍 Curiosidad</h3>
+        <p>🤔 Experimentación</p>
+        <p>⚠️ Probar sin conocer riesgos</p>
+        <p>📱 Influencia de redes</p>
+    </div>
+
+    <div class="card entorno" style="flex:1; min-width:250px;">
+        <h3>🚪 Entorno</h3>
+        <p>🏪 Fácil acceso</p>
+        <p>🚬 Contacto cercano</p>
+        <p>⚠️ Zonas de riesgo</p>
+    </div>
+
+</div>
+
+<!-- CENTRO -->
+<div class="center-box">
+    🚨 Los factores de riesgo del consumo de drogas pueden presentarse en la familia, el entorno social, las emociones y la curiosidad.
+     Estos influyen en las decisiones de las personas, especialmente de los jóvenes. Por ello, la prevención, la información y el apoyo familiar son fundamentales para evitar el consumo y fomentar una vida saludable.
+</div>
+
+</section>
+
+<!-- 11. PREVENCION -->
+<section id="prevencion" style="padding:60px 10%; background:#f9a825;">
+
+<h2 style="text-align:center; font-size:45px; color:#0d47a1; margin-bottom:30px;">
+<i class="fa-solid fa-shield-heart"></i> Prevención
+</h2>
+
+<div style="display:flex; gap:30px; align-items:stretch; flex-wrap:wrap;">
+
+    <!-- TEXTO -->
+    <div style="flex:1; min-width:300px; display:flex; flex-direction:column; justify-content:space-between;">
+
+        <p style="font-size:22px; margin-bottom:20px;">
+        El papel de los docentes es clave, ya que pueden identificar cambios de conducta como aislamiento, agresividad o bajo rendimiento. Las actividades extracurriculares (deporte, arte, cultura) ayudan a mantener a los estudiantes ocupados en entornos positivos. La comunicación efectiva entre estudiantes, maestros y familia es una de las herramientas más importantes para la prevención. Es importante fomentar el pensamiento crítico, para que los jóvenes analicen las consecuencias antes de tomar decisiones. </p>
+      <br>
+        <p>SEl uso de drogas no solo afecta al individuo, sino también a la sociedad, generando problemas económicos, de salud pública y seguridad. Las campañas de prevención deben ser claras, realistas y adaptadas a la edad de los estudiantes para que sean efectivas. Buscar apoyo en profesionales (psicólogos, orientadores) permite una intervención adecuada y oportuna.
+        </p>
+
+    </div>
+
+    <!-- IMAGEN -->
+    <div style="flex:1; min-width:400px;">
+        <img src="imagen9.jpeg"
+        style="width:100%; height:100%; object-fit:cover; border-radius:15px;">
+    </div>
+
+</div>
+
+</section>
+<!-- 12. FACTORES DE PREVENCION -->
+<section id="factores_prevencion" style="padding:80px 5%; background:#f1f8e9;">
+<h2 style="text-align:center; font-size:48px; color:#33691e; margin-bottom:50px;">
+<i class="fa-solid fa-hand-holding-medical"></i> Factores de prevención
+</h2>
+
+<div style="max-width:1700px; margin:auto; display:grid; grid-template-columns:1fr 1fr; gap:25px;">
+
+    <!-- CARD 1 -->
+    <div style="display:flex; align-items:center; gap:20px;
+        background:white; padding:18px; border-radius:12px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:24px;">
+
+        <div style="flex:1;">
+            <h3>✔️ Buena comunicación familiar</h3>
+            <p>
+                Mantener diálogo abierto entre padres e hijos ayuda a prevenir conductas de riesgo.  
+                Ejemplo: hablar diariamente sobre cómo fue el día, emociones o problemas sin miedo a ser juzgado.
+            </p>
+        </div>
+
+        <img src="imagen15.png" style="width:230px; height:230px; object-fit:cover; border-radius:12px;">
+    </div>
+
+    <!-- CARD 2 -->
+    <div style="display:flex; align-items:center; gap:20px;
+        background:white; padding:18px; border-radius:12px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:24px;">
+
+        <div style="flex:1;">
+            <h3>✔️ Educación sobre riesgos</h3>
+            <p>
+                Informar a los estudiantes sobre las consecuencias reales del consumo de drogas.
+                Ejemplo: charlas escolares, testimonios y actividades educativas que expliquen efectos físicos y sociales.
+            </p>
+        </div>
+
+        <img src="imagen13.jpeg" style="width:230px; height:230px; object-fit:cover; border-radius:12px;">
+    </div>
+
+    <!-- CARD 3 -->
+    <div style="display:flex; align-items:center; gap:20px;
+        background:white; padding:18px; border-radius:12px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:24px;">
+
+        <div style="flex:1;">
+            <h3>✔️ Valores y autoestima</h3>
+            <p>
+                Tener una autoestima fuerte reduce la presión social.
+                Ejemplo: actividades que refuercen la confianza como deportes, arte o logros personales.
+            </p>
+        </div>
+
+        <img src="imagen16.png" style="width:230px; height:230px; object-fit:cover; border-radius:12px;">
+    </div>
+
+    <!-- CARD 4 -->
+    <div style="display:flex; align-items:center; gap:20px;
+        background:white; padding:18px; border-radius:12px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:24px;">
+
+        <div style="flex:1;">
+            <h3>✔️ Actividades positivas</h3>
+            <p>
+                Mantenerse ocupado en actividades sanas reduce el riesgo de consumo.
+                Ejemplo: fútbol, música, danza, lectura o voluntariado.
+            </p>
+        </div>
+
+        <img src="imagen17.png" style="width:230px; height:230px; object-fit:cover; border-radius:12px;">
+    </div>
+
+    <!-- CARD 5 -->
+    <div style="display:flex; align-items:center; gap:20px;
+        background:white; padding:18px; border-radius:12px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:24px;">
+
+        <div style="flex:1;">
+            <h3>✔️ Buen entorno social</h3>
+            <p>
+                Las amistades influyen directamente en las decisiones.
+                Ejemplo: rodearse de personas que tengan hábitos saludables y eviten conductas de riesgo.
+            </p>
+        </div>
+
+        <img src="imagen12.jpeg" style="width:230px; height:230px; object-fit:cover; border-radius:12px;">
+    </div>
+
+    <!-- CARD 6 -->
+    <div style="display:flex; align-items:center; gap:20px;
+        background:white; padding:18px; border-radius:12px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:24px;">
+
+        <div style="flex:1;">
+            <h3>✔️ Supervisión adulta</h3>
+            <p>
+                La atención de padres y tutores ayuda a detectar cambios de conducta.
+                Ejemplo: estar pendiente de amistades, horarios y comportamiento emocional.
+            </p>
+        </div>
+
+        <img src="imagen2.jpeg" style="width:230px; height:230px; object-fit:cover; border-radius:12px;">
+    </div>
+
+    <!-- CARD 7 -->
+    <div style="display:flex; align-items:center; gap:20px;
+        background:white; padding:18px; border-radius:12px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:24px;">
+
+        <div style="flex:1;">
+            <h3>✔️ Toma de decisiones</h3>
+            <p>
+                Aprender a decir “no” es clave para evitar riesgos.
+                Ejemplo: rechazar presión de amigos y elegir caminos saludables.
+            </p>
+        </div>
+
+        <img src="imagen13.jpeg" style="width:230px; height:230px; object-fit:cover; border-radius:12px;">
+    </div>
+
+    <!-- NUEVO CARD -->
+    <div style="display:flex; align-items:center; gap:20px;
+        background:white; padding:18px; border-radius:12px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:24px;">
+
+        <div style="flex:1;">
+            <h3>✔️ Comunicación con profesionales</h3>
+            <p>
+                Buscar ayuda psicológica o educativa puede prevenir problemas mayores.
+                Ejemplo: orientación escolar, terapias o pláticas preventivas en comunidad.
+            </p>
+        </div>
+
+        <img src="imagen1.jpeg" style="width:230px; height:230px; object-fit:cover; border-radius:12px;">
+    </div>
+
+</div>
+</section>
+
+
+
+
+
+
+<!-- juegos -->
+<section>
+    <h2 style="text-align:center; font-size:50px; margin-bottom:30px;">
+        Juegos Didácticos
+    </h2>
+
+    <table style="width:100%; border-spacing:25px; text-align:center;">
+
+        <!-- FILA 1 -->
+        <tr>
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Crucigrama Acróstico</h3>
+                <p style="font-size:20px;">Completa las palabras según las pistas relacionadas con las drogas.</p>
+                <a href="https://puzzel.org/es/jigsaw/play?p=-OqxIFlFpZsgm6FB_5VA" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#4CAF50; color:white; border:none; border-radius:10px;">
+                        🎮 Jugar Ahora
+                    </button>
+                </a>
+            </td>
+
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Rompecabezas</h3>
+                <p style="font-size:20px;">Arma la imagen correctamente uniendo todas las piezas.</p>
+                <a href="https://puzzel.org/es/jigsaw/play?p=-OogrdcvpgcIsp50xmZt" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#2196F3; color:white; border:none; border-radius:10px;">
+                        🧩 Jugar Ahora
+                    </button>
+                </a>
+            </td>
+
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Memorama</h3>
+                <p style="font-size:20px;">Encuentra las parejas correctas en el menor tiempo posible.</p>
+                <a href="https://puzzel.org/es/memory/play?p=-Ooh7n10-CaWdxOeDAmr" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#FF9800; color:white; border:none; border-radius:10px;">
+                        🧠 Jugar Ahora
+                    </button>
+                </a>
+            </td>
+        </tr>
+
+        <!-- FILA 2 -->
+        <tr>
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Sopa de Letras</h3>
+                <p style="font-size:20px;">Busca palabras relacionadas con la prevención de drogas.</p>
+                <a href="https://puzzel.org/es/wordseeker/play?p=-OohAn_YJ1cx9mmlge7T" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#9C27B0; color:white; border:none; border-radius:10px;">
+                        🔍 Jugar Ahora
+                    </button>
+                </a>
+            </td>
+
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Objetos Ocultos</h3>
+                <p style="font-size:20px;">Encuentra todos los objetos escondidos en la imagen.</p>
+                <a href="https://puzzel.org/es/hidden-objects/play?p=-OohF3_c_JzrHnznkMy7" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#E91E63; color:white; border:none; border-radius:10px;">
+                        🕵️ Jugar Ahora
+                    </button>
+                </a>
+            </td>
+
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Ahorcado</h3>
+                <p style="font-size:20px;">Adivina la palabra antes de perder el juego.</p>
+                <a href="https://puzzel.org/es/hangman/play?p=-OohGouRkA-oUJjZeEBx" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#795548; color:white; border:none; border-radius:10px;">
+                        ✏️ Jugar Ahora
+                    </button>
+                </a>
+            </td>
+        </tr>
+
+        <!-- FILA 3 -->
+        <tr>
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Parejas</h3>
+                <p style="font-size:20px;">Relaciona correctamente conceptos e imágenes.</p>
+                <a href="https://puzzel.org/es/matching-pairs/play?p=-OohNSsSxdwffKQTojVJ" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#607D8B; color:white; border:none; border-radius:10px;">
+                        🔗 Jugar Ahora
+                    </button>
+                </a>
+            </td>
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Tipo; Etiquetas</h3>
+                <p style="font-size:20px;">Arma la imagen correctamente uniendo todas las piezas.</p>
+                <a href="" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#CDDC39; color:white; border:none; border-radius:10px;">
+                        🧩 Jugar Ahora
+                    </button>
+                </a>
+            </td>
+            <td style="background:#f5f5f5; padding:30px; border-radius:20px;">
+                <h3 style="font-size:30px;">Cuestionario</h3>
+                <p style="font-size:20px;">Contesta todas las preguntas.</p>
+                <a href="https://puzzel.org/es/quiz/play?p=-OrBcUkjJA6jUf1UL0Tq" target="_blank">
+                    <button style="width:100%; padding:20px; font-size:22px; background:#C62828; color:white; border:none; border-radius:10px;">
+                        ✏️ Jugar Ahora
+                    </button>
+                </a>
+            </td>
+        </tr>
+
+            
+            <td></td>
+        </tr>
+
+    </table>
+</section>
+
+<!-- Test de probabilidad -->
+
+<section style="padding:80px 12%; background:#f1f8e9; text-align:center;">
+
+<div id="inicio">
+
+    <h2 style="font-size:40px; color:#2e7d32; margin-bottom:45px;">
+     Test de probabilidad
+    </h2>
+
+    <p style="font-size:24px; max-width:700px; margin:auto; margin-bottom:40px;">
+    Descubre tu nivel de riesgo respondiendo este test. 
+    Es rápido, confidencial y te ayudará a reflexionar sobre tus decisiones.
+    </p>
+
+    <button onclick="iniciarTest()" style="padding:18px 40px; font-size:24px; background:#2e7d32; color:white; border:none; border-radius:12px; cursor:pointer;">
+    ▶️ Comenzar test
+    </button>
+
+</div>
+
+<!-- TEST -->
+<div id="testBox" style="display:none; animation:fadeIn 0.8s;">
+
+<h2 style="text-align:center; font-size:40px; color:#2e7d32; margin:40px 0;">
+📝 Responde las preguntas
+</h2>
+
+<form id="quiz" style="max-width:900px; margin:auto;">
+
+<!-- PREGUNTAS -->
+
+<div class="bloque">
+<p>1. ¿Con qué frecuencia te sientes presionado/a por tus amigos para probar algo nuevo?</p>
+<select>
+<option value="0">Nunca</option>
+<option value="1">A veces</option>
+<option value="2">Frecuentemente</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>2. ¿Te sientes estresado, triste o ansioso sin saber cómo manejarlo?</p>
+<select>
+<option value="0">Nunca</option>
+<option value="1">A veces</option>
+<option value="2">Frecuentemente</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>3. ¿Has sentido curiosidad por probar drogas?</p>
+<select>
+<option value="0">Nunca</option>
+<option value="1">A veces</option>
+<option value="2">Frecuentemente</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>4. ¿Tienes amigos que consumen?</p>
+<select>
+<option value="0">Nunca</option>
+<option value="1">A veces</option>
+<option value="2">Frecuentemente</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>5. ¿Sientes que te falta apoyo o comunicación en tu familia?</p>
+<select>
+<option value="0">Nunca</option>
+<option value="1">A veces</option>
+<option value="2">Frecuentemente</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>6. ¿Te cuesta decir “no” cuando alguien te ofrece algo?</p>
+<select>
+<option value="0">Nunca</option>
+<option value="1">A veces</option>
+<option value="2">Frecuentemente</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>7. ¿Participas poco en actividades como deporte, arte o hobbies?</p>
+<select>
+<option value="0">Sí</option>
+<option value="1">Más o menos</option>
+<option value="2">No</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>8. ¿Has estado en lugares donde hay consumo de drogas?</p>
+<select>
+<option value="0">Nunca</option>
+<option value="1">A veces</option>
+<option value="2">Frecuentemente</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>9. ¿Sientes que necesitas escapar de tus problemas?</p>
+<select>
+<option value="0">Nunca</option>
+<option value="1">A veces</option>
+<option value="2">Frecuentemente</option>
+</select>
+</div>
+
+<div class="bloque">
+<p>10. ¿Crees que consumir drogas es peligroso?</p>
+<select>
+<option value="0">Sí</option>
+<option value="1">Tal vez</option>
+<option value="2">No</option>
+</select>
+</div>
+
+<br>
+
+<button type="button" onclick="calcular()" class="btn-final">
+Ver resultado
+</button>
+
+</form>
+
+</div>
+
+<!-- RESULTADO -->
+<div id="resultado" style="display:none; margin-top:50px;"></div>
+
+<!-- BOTONES -->
+<div id="acciones" style="display:none; margin-top:30px;">
+
+<button onclick="descargarPDF()" class="btn-sec">
+📄 Descargar PDF
+</button>
+
+<button onclick="reiniciar()" class="btn-sec">
+🔄 Reiniciar
+</button>
+
+</div>
+
+</section>
+
+<!-- LIBRERÍA PDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<style>
+
+/* ANIMACIÓN */
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* BLOQUES */
+
+.bloque{
+    background:white;
+    padding:20px;
+    border-radius:14px;
+    margin-bottom:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    text-align:left;
+}
+
+.bloque p{
+    font-size:22px;
+    margin-bottom:15px;
+    color:#333;
+}
+
+select{
+    width:100%;
+    padding:12px;
+    font-size:18px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+/* BOTÓN PRINCIPAL */
+
+.btn-final{
+    padding:16px 35px;
+    font-size:22px;
+    background:#2e7d32;
+    color:white;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn-final:hover{
+    background:#1b5e20;
+    transform:scale(1.05);
+}
+
+/* BOTONES SECUNDARIOS */
+
+.btn-sec{
+    padding:14px 28px;
+    margin:10px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:#43a047;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn-sec:hover{
+    background:#2e7d32;
+    transform:scale(1.05);
+}
+
+</style>
+
+<script>
+
+let resultadoFinal = 0;
+let nivelFinal = "";
+let mensajePDF = "";
+
+/* MOSTRAR TEST */
+
+function iniciarTest(){
+
+    document.getElementById("inicio").style.display = "none";
+
+    document.getElementById("testBox").style.display = "block";
+
+}
+
+/* CALCULAR RESULTADO */
+
+function calcular(){
+
+    let total = 0;
+
+    let selects = document.querySelectorAll("#quiz select");
+
+    selects.forEach(s => {
+
+        total += parseInt(s.value);
+
+    });
+
+    resultadoFinal = total;
+
+    let porcentaje = Math.round((total / 20) * 100);
+
+    let resultado = document.getElementById("resultado");
+
+    resultado.style.display = "block";
+
+    document.getElementById("acciones").style.display = "block";
+
+    /* MOSTRAR SOLO PORCENTAJE */
+
+    resultado.innerHTML = `
+
+    <div style="
+        text-align:center;
+        padding:30px;
+    ">
+
+        <h2 style="
+            font-size:45px;
+            color:#2e7d32;
+            margin-bottom:25px;
+        ">
+            Resultado del Test
+        </h2>
+
+        <div style="
+            width:240px;
+            height:240px;
+            border-radius:50%;
+            margin:auto;
+            background:conic-gradient(#2e7d32 ${porcentaje}%, #d9d9d9 ${porcentaje}%);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            box-shadow:0 10px 25px rgba(0,0,0,0.15);
+        ">
+
+            <div style="
+                width:180px;
+                height:180px;
+                border-radius:50%;
+                background:white;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                font-size:48px;
+                font-weight:bold;
+                color:#2e7d32;
+            ">
+                ${porcentaje}%
+            </div>
+
+        </div>
+
+    </div>
+
+    `;
+
+    /* TEXTO PARA PDF */
+
+    if(total <= 6){
+
+        nivelFinal = "RIESGO BAJO";
+
+        mensajePDF = `
+RESULTADO: RIESGO BAJO
+
+¡Felicidades!
+
+Tus respuestas muestran hábitos positivos y una buena toma de decisiones.
+
+Continúa cuidando tu salud física y emocional.
+
+Frases motivadoras:
+• Cada buena decisión construye un mejor futuro.
+• Tu bienestar vale más que cualquier presión social.
+• Sigue creyendo en ti.
+• Tu futuro es importante.
+`;
+
+    }
+
+    else if(total <= 13){
+
+        nivelFinal = "RIESGO MEDIO";
+
+        mensajePDF = `
+RESULTADO: RIESGO MEDIO
+
+Tus respuestas indican que podrías encontrarte en una situación de riesgo.
+
+Es importante reflexionar sobre las decisiones que tomas y buscar apoyo emocional.
+
+Las drogas pueden afectar:
+• Tu salud física y mental
+• Tus estudios
+• Tus relaciones
+• Tu futuro
+
+RECOMENDACIONES:
+• Hablar con alguien de confianza
+• Buscar ayuda profesional
+• Alejarte de ambientes de riesgo
+
+CONTACTOS DE AYUDA:
+
+Secretaría de Salud
+https://www.gob.mx/salud
+
+Líneas de Ayuda
+https://amalavida.com.mx/lineas-de-ayuda/
+
+ONU Contra la Droga
+https://www.unodc.org/
+`;
+
+    }
+
+    else{
+
+        nivelFinal = "RIESGO ALTO";
+
+        mensajePDF = `
+RESULTADO: RIESGO ALTO
+
+IMPORTANTE
+
+Tus respuestas reflejan una situación de alto riesgo.
+
+Las adicciones pueden afectar gravemente:
+• Tu salud
+• Tu estabilidad emocional
+• Tu familia
+• Tu futuro
+
+Buscar ayuda es una decisión valiente.
+
+Nunca es tarde para cambiar y pedir apoyo.
+
+CONTACTOS DE AYUDA:
+
+Secretaría de Salud
+https://www.gob.mx/salud
+
+Líneas de Ayuda
+https://amalavida.com.mx/lineas-de-ayuda/
+
+ONU Contra la Droga
+https://www.unodc.org/
+
+Centro de Rehabilitación
+https://www.instagram.com/adicciones.san.francisco
+`;
+
+    }
+
+}
+
+    /* DESCARGAR PDF */
+
+    function descargarPDF(){
+
+    const { jsPDF } = window.jspdf;
+
+    const doc = new jsPDF();
+
+    let porcentaje = Math.round((resultadoFinal / 20) * 100);
+
+    /* COLOR SEGÚN RIESGO */
+
+    let color = [46,125,50]; // VERDE
+
+    if(nivelFinal == "RIESGO MEDIO"){
+        color = [255,152,0]; // AMARILLO
+    }
+
+    if(nivelFinal == "RIESGO ALTO"){
+        color = [211,47,47]; // ROJO
+    }
+
+    /* ENCABEZADO */
+
+    doc.setFillColor(...color);
+
+    doc.rect(0,0,210,35,"F");
+
+    doc.setTextColor(255,255,255);
+
+    doc.setFontSize(26);
+
+    doc.text("RESULTADOS DEL TEST", 105, 22, null, null, "center");
+
+    /* PORCENTAJE */
+
+    doc.setTextColor(...color);
+
+    doc.setFontSize(40);
+
+    doc.text(porcentaje + "%", 105, 65, null, null, "center");
+
+    /* NIVEL */
+
+    doc.setFontSize(18);
+
+    doc.text("Nivel: " + nivelFinal, 20, 95);
+
+    /* MENSAJE */
+
+    doc.setFontSize(12);
+
+    let lineas = doc.splitTextToSize(mensajePDF, 170);
+
+    doc.text(lineas, 20, 120);
+
+    /* FRASE FINAL */
+
+    doc.setFillColor(...color);
+
+    doc.roundedRect(20, 250, 170, 20, 5, 5, "F");
+
+    doc.setTextColor(255,255,255);
+
+    doc.setFontSize(13);
+
+    doc.text(
+        "Tu bienestar es importante. Nunca dejes de cuidarte.",
+        105,
+        263,
+        null,
+        null,
+        "center"
+    );
+
+    doc.save("Resultados_Test.pdf");
+
+}
+
+/* REINICIAR */
+
+function reiniciar(){
+
+    location.reload();
+
+}
+
+</script>
+
+<!-- 13. CONTACTOS / AYUDA -->
+<section id="ayuda" style="padding:60px 10%; background:#f1f8e9;">
+
+    <h2 style="margin-bottom:30px;">
+        <i class="fa-solid fa-hand-holding-heart"></i> Contactos / Ayuda
+    </h2>
+
+    <!-- VIDEOS GRANDES -->
+    <div style="display:flex; gap:30px; margin-bottom:40px; flex-wrap:wrap;">
+
+        <!-- VIDEO 1 -->
+        <div style="flex:1; min-width:400px;">
+            <video controls style="width:100%; height:500px; object-fit:cover; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.25);">
+                <source src="tiktok1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- VIDEO 2 -->
+        <div style="flex:1; min-width:400px;">
+            <video controls style="width:100%; height:500px; object-fit:cover; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.25);">
+                <source src="tiktok3.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+
+    <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:40px; flex-wrap:wrap;">
+
+        <!-- ENLACES -->
+        <div style="flex:1; min-width:300px;">
+            <ul>
+                <li><a href="https://www.gob.mx/salud" target="_blank">PÁGINA WEB Secretaría de Salud</a></li>
+                <li><a href="https://www.unodc.org/" target="_blank">PÁGINA WEB Oficina de las Naciones Unidas contra la Droga y el Delito</a></li>
+                <li><a href="https://amalavida.com.mx/lineas-de-ayuda/" target="_blank">PAGINA WEB LINEAS DE AYUDA</a></li>
+                <li><a href="https://www.tiktok.com/@neuroraw?_r=1&_t=ZS-96Tm6LH1LaW" target="_blank">TIKTOK OFICIAL</a></li>
+                <li><a href="https://www.tiktok.com/@efectoxitocina?_r=1&_t=ZS-96TmM2Dz6v6" target="_blank">TIKTOK OFICIAL EFECTOS</a></li>
+                <li><a href="https://www.tiktok.com/@conecta.tu.vida?_r=1&_t=ZS-94wNpe7xKey" target="_blank">TIKTOK Cuenta Conecta Tu Vida</a></li>
+                <li><a href="https://www.facebook.com/share/1CWAdYsjbs/" target="_blank">FACEBOOK A Volar Sin Drogas</a></li>
+                <li><a href="https://www.facebook.com/share/18j1zrrMi5/" target="_blank">FACEBOOK Clinia de Puebla</a></li>
+                <li><a href="https://www.facebook.com/share/1AwpQqXDaM/" target="_blank">FACEBOOK Clinia de Tlaxcala</a></li>
+                <li><a href="https://www.facebook.com/share/18DnF1j1xv/" target="_blank">FACEBOOK Clinia de Apizaco</a></li>
+                <li><a href="https://www.instagram.com/adicciones.san.francisco?igsh=MXRuMG9hZmpxN3g2MQ==" target="_blank">Instagram Centro de Rehabilitacion</a></li>
+            </ul>
+        </div>
+
+        <!-- IMAGEN -->
+        <div style="flex:1; min-width:300px; text-align:right;">
+            <img src="imagen8.jpeg" 
+                 alt="Ayuda" 
+                 style="width:100%; max-width:520px; border-radius:25px; box-shadow:0 10px 25px rgba(0,0,0,0.25);">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- 14. CONCLUSION -->
+
+<section id="collage" style="padding:80px 5%; background:#f0fff5;">
+    <section id="conclusion" style="padding:80px 3%; background:#fdecef; font-family:Arial, sans-serif;">
+
+    <div style="max-width:1300px; margin:auto; background:#ffffff; padding:50px; border-radius:25px; box-shadow:0 15px 40px rgba(0,0,0,0.15);">
+
+        <h2 style="text-align:center; font-size:45px; color:#c2185b; margin-bottom:30px;">
+            <i class="fa-solid fa-comment"></i> Conclusión
+        </h2>
+
+        <p style="font-size:19px; line-height:1.9; color:#444; text-align:justify; margin-bottom:25px;">
+            El consumo de drogas representa un problema importante que afecta la salud, el desarrollo y el bienestar de las personas, especialmente de los jóvenes. Sus efectos pueden ser graves tanto a nivel físico como mental, además de influir en la vida familiar, escolar y social.
+        </p>
+
+        <p style="font-size:19px; line-height:1.9; color:#444; text-align:justify;">
+            Por ello, es fundamental fomentar la prevención, la educación y los valores, así como promover decisiones responsables que permitan evitar el consumo y sus consecuencias, contribuyendo a una vida saludable y un mejor futuro.
+        </p>
+
+        <!-- FRASE FINAL -->
+        <div style="margin-top:35px; padding:25px; background:#c2185b; color:#fff; border-radius:18px; text-align:center; font-size:22px; font-weight:bold;">
+            "Decidir hoy cuidarte, es construir un mejor mañana."
+        </div>
+
+    </div>
+
+</section>
+    
+
+<style>
+.pinterest {
+    column-count: 4;
+    column-gap: 15px;
+    padding: 40px 5%;
+    background: #f5f7f6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) { .pinterest { column-count: 3; } }
+@media (max-width: 800px) { .pinterest { column-count: 2; } }
+@media (max-width: 500px) { .pinterest { column-count: 1; } }
+
+.pin {
+    margin-bottom: 15px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    break-inside: avoid;
+    background: #fff;
+}
+
+.pin img {
+    width: 100%;
+    display: block;
+    transition: 0.35s ease;
+}
+
+.pin:hover img {
+    transform: scale(1.06);
+}
+</style>
+
+<!-- COLLAGE -->
+<section id="collage" style="padding:80px 5%; background:#f0fff5;">
+
+<h2 style="
+text-align:center;
+font-size:48px;
+margin-bottom:45px;
+font-weight:bold;
+color:#111;">
+Descarga la imagen que te agrade
+</h2>
+
+
+<div class="galeria">
+
+    <a href="imagen1.jpeg" download class="pin">
+        <img src="imagen1.jpeg">
+    </a>
+
+    <a href="imagen2.jpeg" download class="pin">
+        <img src="imagen2.jpeg">
+    </a>
+
+    <a href="imagen13.jpeg" download class="pin">
+        <img src="imagen13.jpeg">
+    </a>
+
+    <a href="imagen18.png" download class="pin">
+        <img src="imagen18.png">
+    </a>
+
+    <a href="imagen21.jpeg" download class="pin">
+        <img src="imagen21.jpeg">
+    </a>
+
+    <a href="imagen14.jpeg" download class="pin">
+        <img src="imagen14.jpeg">
+    </a>
+
+    <a href="imagen22.jpeg" download class="pin">
+        <img src="imagen22.jpeg">
+    </a>
+
+    <a href="imagen18.png" download class="pin">
+        <img src="imagen18.png">
+    </a>
+
+    <a href="imagen10.jpeg" download class="pin">
+        <img src="imagen10.jpeg">
+    </a>
+
+    <a href="imagen17.png" download class="pin">
+        <img src="imagen17.png">
+    </a>
+
+    <a href="imagen23.jpeg" download class="pin">
+        <img src="imagen23.jpeg">
+    </a>
+
+    <a href="imagen24.jpeg" download class="pin">
+        <img src="imagen24.jpeg">
+    </a>
+
+    <!-- NUEVAS -->
+    <a href="imagen19.jpeg" download class="pin">
+        <img src="imagen19.jpeg">
+    </a>
+
+    <a href="imagen9.jpeg" download class="pin">
+        <img src="imagen9.jpeg">
+    </a>
+
+    <a href="imagen20.jpeg" download class="pin">
+        <img src="imagen20.jpeg">
+    </a>
+
+</div>
+
+<style>
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:20px;
+    max-width:1400px;
+    margin:auto;
+}
+
+.pin{
+    overflow:hidden;
+    border-radius:18px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+    transition:0.3s;
+    display:block;
+    cursor:pointer;
+}
+
+.pin img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+    transition:0.35s;
+}
+
+.pin:hover{
+    transform:translateY(-6px);
+}
+
+.pin:hover img{
+    transform:scale(1.05);
+}
+
+/* RESPONSIVE */
+@media(max-width:1100px){
+    .galeria{
+        grid-template-columns:repeat(3, 1fr);
+    }
+}
+
+@media(max-width:700px){
+    .galeria{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media(max-width:500px){
+    .galeria{
+        grid-template-columns:1fr;
+    }
+}
+
+</style>
+
+</section>
+
+<style>
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    max-width:1500px;
+    margin:auto;
+}
+
+.pin{
+    position:relative;
+    overflow:hidden;
+    border-radius:22px;
+    background:white;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    transition:0.35s;
+}
+
+.pin:hover{
+    transform:translateY(-5px);
+}
+
+.pin img{
+    width:100%;
+    display:block;
+    transition:0.4s;
+}
+
+.pin:hover img{
+    transform:scale(1.05);
+}
+
+.descargar{
+    position:absolute;
+    bottom:15px;
+    right:15px;
+    background:#2e7d32;
+    color:white;
+    padding:10px 18px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:14px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.25);
+    transition:0.3s;
+}
+
+.descargar:hover{
+    background:#1b5e20;
+    transform:scale(1.08);
+}
+
+@media(max-width:700px){
+
+    #collage h2{
+        font-size:34px !important;
+    }
+
+    .galeria{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+
+<!-- 15. VIDEO -->
+<section id="video" style="padding:90px 2%; text-align:center; background:#f5f5f5; font-family:Arial, sans-serif;">
+
+<h2 style="font-size:50px; margin-bottom:60px; color:#2e7d32;">
+🎬 Videos Informativos
+</h2>
+
+<div style="display:flex; justify-content:center; gap:60px; flex-wrap:wrap;">
+
+    <!-- VIDEO 1 -->
+    <div style="width:800px; border-radius:30px; overflow:hidden; box-shadow:0 20px 45px rgba(0,0,0,0.3); transition:0.3s;"
+         onmouseover="this.style.transform='scale(1.04)'"
+         onmouseout="this.style.transform='scale(1)'">
+
+        <video width="100%" height="450" controls style="display:block;">
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+    <!-- VIDEO 2 -->
+    <div style="width:800px; border-radius:30px; overflow:hidden; box-shadow:0 20px 45px rgba(0,0,0,0.3); transition:0.3s;"
+         onmouseover="this.style.transform='scale(1.04)'"
+         onmouseout="this.style.transform='scale(1)'">
+
+        <video width="100%" height="450" controls style="display:block;">
+            <source src="video2.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+</div>
+
+<!-- SECCIÓN AUDIO -->
+<section id="audio" style="padding:90px 8%; background:#eef7ee; font-family:Arial, sans-serif;">
+
+    <div style="
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:50px;
+        flex-wrap:wrap;
+    ">
+
+        <!-- TEXTO + AUDIO -->
+        <div style="flex:1; min-width:420px;">
+
+            <h2 style="
+                font-size:50px;
+                color:#2e7d32;
+                margin-bottom:25px;
+                text-align:left;
+            ">
+                🎧 Escucha y Reflexiona
+            </h2>
+
+            <p style="
+                font-size:22px;
+                color:#444;
+                line-height:1.9;
+                margin-bottom:35px;
+                text-align:justify;
+            ">
+                Audio sobre la prevención de adicciones y la importancia de tomar
+                decisiones saludables. Puedes escucharlo en línea o descargarlo
+                fácilmente para reproducirlo cuando lo necesites.
+            </p>
+
+            <!-- CAJA AUDIO -->
+            <div style="
+                background:white;
+                padding:35px;
+                border-radius:25px;
+                box-shadow:0 10px 30px rgba(0,0,0,0.15);
+            ">
+
+                <!-- AUDIO -->
+                <audio controls style="width:100%; margin-bottom:30px;">
+                    <source src="audio.mp4" type="audio/mpeg">
+                    Tu navegador no soporta audio.
+                </audio>
+
+                <!-- BOTÓN -->
+                <a href="audio.mp4" download
+                style="
+                    display:inline-block;
+                    padding:16px 34px;
+                    background:#2e7d32;
+                    color:white;
+                    text-decoration:none;
+                    font-size:20px;
+                    font-weight:bold;
+                    border-radius:14px;
+                    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+                    transition:0.3s;
+                "
+                onmouseover="this.style.background='#1b5e20'"
+                onmouseout="this.style.background='#2e7d32'">
+
+                ⬇ Descargar Audio
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- IMAGEN -->
+        <div style="flex:1; min-width:320px; text-align:center;">
+
+            <img src="album.jpeg"
+            style="
+                width:100%;
+                max-width:420px;
+                height:520px;
+                object-fit:cover;
+                border-radius:30px;
+                box-shadow:0 12px 35px rgba(0,0,0,0.2);
+            ">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</section>
+
+<!-- 16. FUENTES -->
+<section id="fuentes">
+<h2><i class="fa-solid fa-book"></i> Fuentes bibliográficas</h2>
+<ul>
+<li>Organización Mundial de la Salud. (2023). Drogas y salud. https://www.who.int/es </li>
+<li>Instituto Nacional sobre el Abuso de Drogas. (2024). Información sobre drogas. https://nida.nih.gov/es</li>
+<li>Centros para el Control y la Prevención de Enfermedades. (2023). Uso de sustancias. https://www.cdc.gov</li>
+<li>Drogas y conducta humana. (2012). Pearson Educación.</li>
+<li>Adicciones: prevención y tratamiento. (2015). Editorial Médica Panamericana.</li>
+<li>Comisión Nacional contra las Adicciones. (2023). Prevención del consumo de drogas. https://www.gob.mx/salud/conadic</li>
+<li>Comisión Nacional contra las Adicciones (Facebook oficial)</li>
+<li>Secretaría de Salud. (2023). Salud mental y adicciones.</li>
+</ul>
+</section>
+
+<style>
+
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow-x:hidden;
+}
+
+footer{
+    width:100vw;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    right:50%;
+    margin-left:-50vw;
+    margin-right:-50vw;
+}
+
+</style>
+</section>
+
+
+
+
+
+<!-- FOOTER -->
+<footer style="
+background:#2e7d32;
+color:#ffffff;
+font-family:Arial, sans-serif;
+width:100%;
+margin:0;
+padding:0;
+position:relative;
+left:0;
+">
+
+    <!-- BARRA SUPERIOR -->
+    <div style="
+    background:#1b5e20;
+    padding:12px 6%;
+    font-size:14px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    width:100%;
+    box-sizing:border-box;
+    ">
+        <span style="font-weight:bold;">
+            Gobierno de México | Educación Media Superior
+        </span>
+
+        <span>
+            Sitio educativo oficial
+        </span>
+    </div>
+
+    <!-- CONTENIDO -->
+    <div style="
+    padding:55px 6% 25px 6%;
+    width:100%;
+    box-sizing:border-box;
+    ">
+
+        <div style="
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        gap:35px;
+        width:100%;
+        ">
+
+            <!-- COLUMNA 1 -->
+            <div style="flex:1; min-width:260px;">
+                <h4 style="
+                border-bottom:2px solid #ffffff;
+                padding-bottom:10px;
+                margin-bottom:15px;
+                ">
+                    INSTITUCION
+                </h4>
+
+                <p style="line-height:1.6;">
+                    Colegio de Estudios Científicos y Tecnológicos del Estado de Tlaxcala
+                </p>
+
+                <p>Plantel 06 Tepeyanco</p>
+            </div>
+
+            <!-- COLUMNA 2 -->
+            <div style="flex:1; min-width:200px;">
+                <h4 style="
+                border-bottom:2px solid #ffffff;
+                padding-bottom:10px;
+                margin-bottom:15px;
+                ">
+                    INFORMACIÓN
+                </h4>
+
+                <ul style="
+                list-style:none;
+                padding:0;
+                line-height:2;
+                ">
+                    <li>6to Semestre</li>
+                    <li>Grupo E</li>
+                    <li>Proyecto Educativo</li>
+                </ul>
+            </div>
+
+            <!-- COLUMNA 3 -->
+            <div style="flex:1; min-width:260px;">
+                <h4 style="
+                border-bottom:2px solid #ffffff;
+                padding-bottom:10px;
+                margin-bottom:15px;
+                ">
+                    ESTUDIANTES
+                </h4>
+
+                <ul style="
+                list-style:none;
+                padding:0;
+                line-height:2;
+                ">
+                    <li>Tatiana Joselin Saucedo Tovar Romualdo</li>
+                    <li>Sayuri Yamilet Bello</li>
+                    <li>Gonzalo Vega Santos</li>
+                </ul>
+            </div>
+
+            <!-- COLUMNA 4 -->
+            <div style="flex:1; min-width:260px;">
+                <h4 style="
+                border-bottom:2px solid #ffffff;
+                padding-bottom:10px;
+                margin-bottom:15px;
+                ">
+                    CONTACTO
+                </h4>
+
+                <ul style="
+                list-style:none;
+                padding:0;
+                line-height:2;
+                ">
+                    <li><i class="fa-solid fa-location-dot"></i> Av. Cecyte, Tepeyanco</li>
+                    <li><i class="fa-solid fa-phone"></i> 01 (246) 468 9200</li>
+                    <li><i class="fa-solid fa-envelope"></i> controlescolar@cecytlax.edu.mx</li>
+                    <li><i class="fa-brands fa-facebook"></i> Cecyte 06 Tepeyanco</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- BARRA FINAL -->
+        <div style="
+        margin-top:45px;
+        border-top:1px solid #ffffff;
+        padding-top:20px;
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content:space-between;
+        gap:20px;
+        width:100%;
+        ">
+
+            <p style="
+            margin:0;
+            font-size:14px;
+            ">
+                © 2026 CECyTE Tlaxcala | Plantel 06 Tepeyanco
+            </p>
+
+            <div style="font-size:20px;">
+                <a href="#" style="color:#ffffff; margin:0 10px;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" style="color:#ffffff; margin:0 10px;">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+                <a href="#" style="color:#ffffff; margin:0 10px;">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+                <a href="#" style="color:#ffffff; margin:0 10px;">
+                    <i class="fas fa-wifi"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- AVISO -->
+    <div style="
+    background:#1b5e20;
+    padding:15px 6%;
+    font-size:13px;
+    text-align:center;
+    line-height:1.6;
+    width:100%;
+    box-sizing:border-box;
+    ">
+        <p style="margin:0;">
+            Aviso de Privacidad: Los datos personales recabados en este sitio serán protegidos conforme a la normativa vigente.
+            Su uso es exclusivamente con fines educativos y administrativos.
+        </p>
+    </div>
+
+</footer>
+
+</body>
+</html>
